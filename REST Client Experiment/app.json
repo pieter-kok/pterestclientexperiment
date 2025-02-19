@@ -3,8 +3,8 @@
   "name": "REST Client Experiment",
   "publisher": "Pieter Kok",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
+  "brief": "An experiment with the REST Client from the System Application",
+  "description": "Uses the REST Client with additional logging with web services from https://restful-api.dev, inspired by the video of Arend Jan Kauffmann for Areopa Webinars: https://www.youtube.com/watch?v=gv_NQAekX8Y",
   "privacyStatement": "",
   "EULA": "",
   "help": "",
@@ -13,19 +13,22 @@
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
-  "application": "22.0.0.0",
+  "application": "25.0.0.0",
   "idRanges": [
     {
       "from": 50200,
       "to": 50299
     }
   ],
-  "features": [
-    "NoImplicitWith"
-  ],
   "resourceExposurePolicy": {
     "allowDebugging": true,
     "allowDownloadingSource": false,
     "includeSourceInSymbolFile": false
-  }
+  },
+  "features": [
+    "TranslationFile",
+    "NoPromotedActionProperties",
+    "NoImplicitWith"
+  ],
+  "runtime": "14.0"
 }

@@ -1,5 +1,8 @@
 {
-  "country": "us",
+  "country": "nl",
+  "appSourceCopMandatoryAffixes": [
+    "PTE"
+  ],
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": []

@@ -1,4 +1,9 @@
 {
   "type": "PTE",
-  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main"
+  "templateUrl": "https://github.com/microsoft/AL-Go-PTE@main",
+  "NextMajorSchedule": "0 1 20 * *",
+  "NextMinorSchedule": "0 1 19 * *",
+  "CurrentSchedule": "0 1 18 * *",
+  "UpdateGitHubGoSystemFilesSchedule": "0 0 17 * *",
+  "runs-on": "ubuntu-latest"
 }

@@ -1,5 +1,25 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Publish: pte-rest",
+            "type": "al",
+            "request": "launch",
+            "environmentType": "Sandbox",
+            "server": "http://pte-rest",
+            "serverInstance": "BC",
+            "authentication": "UserPassword",
+            "startupObjectType": "Page",
+            "startupObjectId": 50200,
+            "breakOnError": "ExcludeTry",
+            "breakOnRecordWrite": "None",
+            "launchBrowser": true,
+            "enableSqlInformationDebugger": true,
+            "enableLongRunningSqlStatements": true,
+            "longRunningSqlStatementsThreshold": 500,
+            "numberOfSqlStatements": 10,
+            "tenant": "default",
+            "usePublicURLFromServer": true
+        }
     ]
 }
